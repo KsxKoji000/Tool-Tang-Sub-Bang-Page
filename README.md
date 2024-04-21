@@ -1,1 +1,2 @@
-Author Dươngg Phú Quốcc
+# AUTHOR: KSXKOJI
+# KHÔNG SỬ DỤNG VỚI MỤC ĐÍCH BUÔN BÁN !
