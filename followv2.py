@@ -177,6 +177,9 @@ def __Main__():
                         print(f'{_Cyan_}[{_Red_}{dem}{_Cyan_}] {_Purple_}| {_Green_}KsxKoji~ {_Purple_}| {_Cyan_}[{_Yellow_}{id}{_Cyan_}] {_Red_}-> {_Cyan_}Follow {_Red_}-> {_Cyan_}[{_Yellow_}{taget}{_Cyan_}] {_Purple_}| {_Red_}Thất Bại !')
                         loading(delay)
                     x += 1
+                    if dem >= so_luong:
+                        print(f'{_Cyan_} Đã Xong, Out !!                         ')
+                        quit()
                 except:
                     print(f'{_Green_}Hết Page Trong Profile {_Yellow_}{f.name}{_Green_}, Chuyển Đến Profile Tiếp Theo', end='\r')
                     list_page.clear()
