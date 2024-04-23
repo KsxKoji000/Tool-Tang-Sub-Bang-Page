@@ -8,7 +8,7 @@ import requests,os,sys,time
 from pystyle import Write, Colors,System
 from datetime import datetime
 try:
-    os.remove('list_page.txt')
+    os.remove('list_cookie.txt')
 except:
     pass
 file1 = open('list_cookie.txt','a+')
