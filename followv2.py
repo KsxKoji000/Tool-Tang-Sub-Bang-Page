@@ -129,7 +129,7 @@ def __Main__():
                     __gach__()
                     dem_ck += 1
                     save = open('list_cookie.txt','a+').write(cookie+'\n')
-            elif cookie == '' and dem_ck > 1:
+            elif cookie == '' and dem_ck >= 1:
                 break
             else:
                 print(f'{_Red_} Bắt Buộc Nhập Ít Nhất 1 Cookie !!!')
